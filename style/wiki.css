@@ -1,0 +1,27 @@
+.img_size{
+	width: 100%;
+}
+
+#btn-container{
+	flex-direction: column;
+	position: absolute;
+	z-index: 10;
+	top: 13%;
+}
+
+.btn-col{
+	position: static;
+}
+
+  /*midea for small phone*/
+@media(max-width: 576px) {
+	#btn-container{
+		flex-direction: row;
+		position: relative;
+		z-index: 10;
+		top: unset;
+		width: 100%;
+		justify-content: space-between;
+		bottom: 80%;
+	}
+}

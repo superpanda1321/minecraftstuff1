@@ -1,0 +1,48 @@
+@import "wiki.css";
+@import "mobs.css";
+
+#logo{
+	height: 100px;
+}
+
+#navbar{
+	background-color: blue;
+}
+
+.nav-item>a{
+	color: black !important;
+}
+
+#form{
+	font-family: 'Lobster', cursive;
+	border: 1px dotted #000000 !important;
+	border-radius: 30px;
+	position: absolute;
+	z-index: 10;
+	top: 12%;
+	background-color: white;
+}
+
+@media(max-width: 576px){
+	#form{
+		position: static;
+	}
+}
+
+.carousel-inner{
+	border-radius: 15px;	
+}
+
+.follow{
+	padding-left: 1rem;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+}
+
+#footer{
+	background-color: lightgrey;
+	color: black;
+}
+
