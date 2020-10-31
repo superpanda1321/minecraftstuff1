@@ -1,5 +1,6 @@
 @import "wiki.css";
 @import "mobs.css";
+@import "location.css";
 
 #logo{
 	height: 100px;
